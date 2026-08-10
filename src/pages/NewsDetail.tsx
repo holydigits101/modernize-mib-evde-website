@@ -20,6 +20,27 @@ interface DetailItem {
   place?: string;
 }
 
+function renderContent(text: string) {
+  const parts = text.split(/(\[[^\]]+\]\([^)]+\))/g);
+  return parts.map((part, i) => {
+    const match = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+    if (match) {
+      return (
+        <a
+          key={i}
+          href={match[2]}
+          target="_blank"
+          rel="noreferrer noopener"
+          className="font-semibold text-ink-900 underline decoration-amber-warm underline-offset-4 transition-colors hover:text-ink-600"
+        >
+          {match[1]}
+        </a>
+      );
+    }
+    return <span key={i}>{part}</span>;
+  });
+}
+
 function ShareBar({ title, shareTitle, copiedLabel }: { title: string; shareTitle: string; copiedLabel: string }) {
   const [copied, setCopied] = useState(false);
   const url = typeof window !== "undefined" ? window.location.href : "";
@@ -200,7 +221,7 @@ export default function NewsDetail({ type, slug }: { type: DetailType; slug: str
                       i === 0 ? "text-lg font-medium text-ink-800 sm:text-xl" : "text-[16.5px]"
                     }`}
                   >
-                    {para}
+                    {renderContent(para)}
                   </p>
                 ))}
               </div>

@@ -1,5 +1,3 @@
-import { link } from "fs";
-
 export type Lang = "de" | "en";
 
 export const nav = {
@@ -613,7 +611,7 @@ const en: typeof de = {
         content: [
           "The intercultural film evening in Neuallermöhe was once again a complete success for this year – it was a really great evening with about 150 participants.",
           "Our thanks go to the Bergedorf district office, F&W – fördern und wohnen, the Alevi Cultural Center Bergedorf e.V. (BAKM e.V.), KulturA, the International Federation, the Neuallermöhe neighborhood office, the Allermöhe Gymnasium, and all of you!!! Thank you!",
-          "More photos from the event can be found here: https://www.flickr.com/photos/mib-ev/sets/72157674202968714/.",
+          "More photos from the event can be found [here](https://www.flickr.com/photos/mib-ev/sets/72157674202968714/).",
       ],
       },
       // {
