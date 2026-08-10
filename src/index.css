@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+
+  --color-ink-50: #f3f6fb;
+  --color-ink-100: #e4eaf4;
+  --color-ink-200: #c6d3e8;
+  --color-ink-300: #93aad0;
+  --color-ink-400: #5c7bb1;
+  --color-ink-500: #3a5a95;
+  --color-ink-600: #2b4677;
+  --color-ink-700: #223761;
+  --color-ink-800: #1a2a4b;
+  --color-ink-900: #121d36;
+  --color-ink-950: #0a1223;
+
+  --color-sage-50: #f1f8f4;
+  --color-sage-100: #ddeee3;
+  --color-sage-300: #97c9ac;
+  --color-sage-500: #4d9a70;
+  --color-sage-600: #3a7a58;
+  --color-sage-700: #2e6046;
+
+  --color-amber-warm: #e8a33d;
+  --color-sand: #f7f4ee;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--color-ink-900);
+}
+
+::selection {
+  background: var(--color-ink-800);
+  color: #fff;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  html { scroll-behavior: auto; }
+}
+
+.grain-grid {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+  background-size: 64px 64px;
+}
+
+@keyframes floaty {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-14px); }
+}
+.animate-floaty { animation: floaty 9s ease-in-out infinite; }
