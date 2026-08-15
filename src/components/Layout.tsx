@@ -213,6 +213,105 @@ export function Header({ path }: { path: string }) {
   );
 }
 
+// export function Footer() {
+//   const { lang, t } = useLang();
+//   const items = nav[lang];
+//   return (
+//     <footer className="relative overflow-hidden bg-ink-950 px-6 pt-20 pb-10 text-ink-200 lg:px-10">
+//       <div className="grain-grid absolute inset-0 opacity-30" aria-hidden="true" />
+//       <div className="relative mx-auto w-full max-w-7xl">
+//         <div className="grid gap-12 lg:grid-cols-[1.4fr_1fr_1fr_1.2fr]">
+//           <div>
+//             <Logo light />
+//             <p className="mt-6 max-w-sm text-sm leading-relaxed text-ink-300">{t.footer.about}</p>
+//           </div>
+
+//           <div>
+//             <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-white">
+//               {t.footer.nav}
+//             </h3>
+//             <ul className="mt-5 space-y-3 text-sm">
+//               {items.map((i) => (
+//                 <li key={i.path}>
+//                   <Link to={i.path} className="text-ink-300 transition hover:text-white">
+//                     {i.label}
+//                   </Link>
+//                 </li>
+//               ))}
+//             </ul>
+//           </div>
+
+//           <div>
+//             <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-white">
+//               {t.footer.contact}
+//             </h3>
+//             <ul className="mt-5 space-y-3 text-sm text-ink-300">
+//               <li className="flex gap-2.5">
+//                 <Icon name="pin" className="mt-0.5 h-4 w-4 shrink-0 text-ink-400" />
+//                 <span>
+//                   {org.street}
+//                   <br />
+//                   {org.city}
+//                   <br />
+//                   {org.postfach}
+//                 </span>
+//               </li>
+//               <li className="flex gap-2.5">
+//                 <Icon name="mail" className="mt-0.5 h-4 w-4 shrink-0 text-ink-400" />
+//                 <a className="transition hover:text-white" href={`mailto:${org.email}`}>
+//                   {org.email}
+//                 </a>
+//               </li>
+//               <li className="flex gap-2.5">
+//                 <Icon name="phone" className="mt-0.5 h-4 w-4 shrink-0 text-ink-400" />
+//                 <span>{org.phone}</span>
+//               </li>
+//             </ul>
+//           </div>
+
+//           <div>
+//             <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-white">
+//               {t.footer.partner}
+//             </h3>
+//             <a
+//               href={HD_URL}
+//               target="_blank"
+//               rel="noreferrer noopener"
+//               className="relative mt-5 block overflow-hidden rounded-2xl border border-white/10 p-5 transition duration-300 hover:border-white/25 hover:bg-white/10"
+//             >
+//               <div
+//                 className="absolute inset-0 bg-cover bg-center opacity-60"
+//                 style={{ backgroundImage: "url('/images/hero.jpg')" }}
+//                 aria-hidden="true"
+//               />
+//               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-ink-950/80 via-ink-950/40 to-ink-950/60" aria-hidden="true" />
+//               <span className="relative flex items-center gap-2 text-sm font-bold text-white">
+//                 HolyDigits101
+//                 <Icon name="spark" className="h-4 w-4 text-amber-warm" />
+//               </span>
+//               <span className="relative mt-2 block text-xs leading-relaxed text-ink-300">
+//                 {t.footer.madeWith} HolyDigits101 — holydigits101.com
+//               </span>
+//             </a>
+//           </div>
+//         </div>
+
+//         <div className="mt-14 flex flex-col gap-4 border-t border-white/10 pt-6 text-xs text-ink-400 sm:flex-row sm:items-center sm:justify-between">
+//           <p>
+//             © {new Date().getFullYear()} {org.name}. {t.footer.rights}
+//           </p>
+//           <div className="flex flex-wrap items-center gap-6">
+//             <Link to="/kontakt" className="transition hover:text-white">
+//               {t.footer.imprint}
+//             </Link>
+//             <span>{org.register}</span>
+//           </div>
+//         </div>
+//       </div>
+//     </footer>
+//   );
+// }
+
 export function Footer() {
   const { lang, t } = useLang();
   const items = nav[lang];
@@ -296,11 +395,73 @@ export function Footer() {
           </div>
         </div>
 
+        {/* Bottom bar with social links */}
         <div className="mt-14 flex flex-col gap-4 border-t border-white/10 pt-6 text-xs text-ink-400 sm:flex-row sm:items-center sm:justify-between">
           <p>
             © {new Date().getFullYear()} {org.name}. {t.footer.rights}
           </p>
+
           <div className="flex flex-wrap items-center gap-6">
+            {/* Social Icons */}
+            {/* Social Icons */}
+              <div className="flex items-center gap-4">
+                {/* Facebook */}
+                <a
+                  href="https://web.facebook.com/miteinanderinbergedorfev/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="text-ink-400 transition hover:text-white"
+                  aria-label="Facebook"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    className="h-5 w-5"
+                  >
+                    <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95z" />
+                  </svg>
+                </a>
+
+                {/* Instagram */}
+                <a
+                  href="https://www.instagram.com/miteinanderinbergedorf?utm_source=qr&igsh=a2k3bnB2bDhvbzQw&igsi=a2k3bnB2bDhvbzQw"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="text-ink-400 transition hover:text-white"
+                  aria-label="Instagram"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    className="h-5 w-5"
+                  >
+                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                  </svg>
+                </a>
+              </div>
+            {/* <div className="flex items-center gap-4">
+              <a
+                href="https://web.facebook.com/miteinanderinbergedorfev/"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="text-ink-400 transition hover:text-white"
+                aria-label="Facebook"
+              >
+                <Icon name="facebook" className="h-5 w-5" />
+              </a>
+              <a
+                href="https://www.instagram.com/miteinanderinbergedorf?utm_source=qr&igsh=a2k3bnB2bDhvbzQw&igsi=a2k3bnB2bDhvbzQw"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="text-ink-400 transition hover:text-white"
+                aria-label="Instagram"
+              >
+                <Icon name="instagram" className="h-5 w-5" />
+              </a>
+            </div> */}
+
             <Link to="/kontakt" className="transition hover:text-white">
               {t.footer.imprint}
             </Link>
