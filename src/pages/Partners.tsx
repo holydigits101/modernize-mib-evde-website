@@ -14,7 +14,7 @@ export default function Partners() {
       <Section>
         <Reveal>
           <Link
-            to="/aktuelles/partnerschaft-holydigits101"
+            to="/aktuelles/artikel/building-bridges-holydigits101"
             className="group relative block overflow-hidden rounded-[2.5rem] border border-ink-100 bg-gradient-to-br from-ink-950 via-ink-900 to-ink-800 p-9 text-white transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_30px_60px_-25px_rgba(0,0,0,0.5)] sm:p-14 lg:p-16"
           >
             <div
