@@ -1,4 +1,4 @@
-import { Button, Icon, Kicker, PageHero, Reveal, Section, useLang } from "../lib/site";
+import { Button, Icon, Kicker, Link, PageHero, Reveal, Section, useLang } from "../lib/site";
 
 const HD_URL = "https://holydigits101.com";
 
@@ -10,12 +10,15 @@ export default function Partners() {
     <>
       <PageHero kicker={p.kicker} title={p.title} lead={p.lead} />
 
-      {/* strategic partner */}
+      {/* strategic partner – now fully clickable */}
       <Section>
         <Reveal>
-          <div className="relative overflow-hidden rounded-[2.5rem] border border-ink-100 bg-gradient-to-br from-ink-950 via-ink-900 to-ink-800 p-9 text-white sm:p-14 lg:p-16">
+          <Link
+            to="/aktuelles/partnerschaft-holydigits101"
+            className="group relative block overflow-hidden rounded-[2.5rem] border border-ink-100 bg-gradient-to-br from-ink-950 via-ink-900 to-ink-800 p-9 text-white transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_30px_60px_-25px_rgba(0,0,0,0.5)] sm:p-14 lg:p-16"
+          >
             <div
-              className="absolute inset-0 bg-cover bg-center opacity-60"
+              className="absolute inset-0 bg-cover bg-center opacity-60 transition-opacity duration-500 group-hover:opacity-70"
               style={{ backgroundImage: "url('/images/community1.jpg')" }}
               aria-hidden="true"
             />
@@ -24,6 +27,7 @@ export default function Partners() {
               className="absolute -right-20 -top-20 h-80 w-80 rounded-full bg-amber-warm/20 blur-3xl animate-floaty"
               aria-hidden="true"
             />
+
             <div className="relative grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16">
               <div>
                 <Kicker light>{p.strategicKicker}</Kicker>
@@ -31,18 +35,23 @@ export default function Partners() {
                   {p.hdTitle}
                   <span className="text-amber-warm">.</span>
                 </h2>
-                <p className="mt-6 max-w-xl text-[17px] leading-relaxed text-ink-200">{p.hdText}</p>
+                <p className="mt-6 max-w-xl text-[17px] leading-relaxed text-ink-200">
+                  {p.hdText}
+                </p>
+
                 <div className="mt-9">
-                  <Button href={HD_URL} variant="light">
+                  <span className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-ink-900 transition-all duration-300 group-hover:bg-amber-warm group-hover:text-ink-950">
                     {p.hdCta}
-                  </Button>
+                    <Icon name="arrow" className="h-4 w-4" />
+                  </span>
                 </div>
               </div>
+
               <ul className="space-y-4 self-center">
                 {p.hdPoints.map((point) => (
                   <li
                     key={point}
-                    className="flex gap-4 rounded-2xl border border-white/10 bg-white/5 p-5 text-[15px] leading-relaxed text-ink-100 backdrop-blur-sm transition-colors duration-300 hover:border-white/25 hover:bg-white/10"
+                    className="flex gap-4 rounded-2xl border border-white/10 bg-white/5 p-5 text-[15px] leading-relaxed text-ink-100 backdrop-blur-sm transition-colors duration-300 group-hover:border-white/25 group-hover:bg-white/10"
                   >
                     <Icon name="spark" className="h-5 w-5 shrink-0 text-amber-warm" />
                     {point}
@@ -50,7 +59,7 @@ export default function Partners() {
                 ))}
               </ul>
             </div>
-          </div>
+          </Link>
         </Reveal>
       </Section>
 

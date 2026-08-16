@@ -702,6 +702,74 @@ const de = {
     locationLabel: "Ort",
     detailsLabel: "Details ansehen",
     items: [
+        {
+      slug: "building-bridges-holydigits101",
+      date: "15. August 2026",
+      tag: "Partnerschaft",
+      author: "Henry Akanno",
+      readTime: "6 Min.",
+      title: "Brücken über Kontinente: Wie HolyDigits101 und Miteinander in Bergedorf e.V. die nächste Generation stärken",
+      excerpt: "Eine strategische Partnerschaft, die Zugehörigkeit in Bergedorf mit digitaler Chance in Afrika verbindet — und Bildung in echte Handlungsfähigkeit verwandelt.",
+      image: "/images/community3.jpg",
+      content: [
+        "In einem ruhigen Winkel von Hamburg-Bergedorf schafft ein Verein seit über einem Jahrzehnt Zugehörigkeit. Miteinander in Bergedorf e.V. öffnet Türen für Familien, Kinder und junge Menschen aus unterschiedlichen Hintergründen — besonders für jene mit afrikanischen Wurzeln — durch Bildung, Begegnung und praktische Unterstützung.",
+        "Nun beginnt ein neues Kapitel.",
+        "HolyDigits101 schließt sich dieser Arbeit als strategischer Partner an. Gemeinsam verbinden wir die gelebte Erfahrung von Integration in Deutschland mit dem dringenden Bedarf an digitalen Chancen in Afrika.",
+        "Dies ist keine Partnerschaft von Logos. Es ist eine Partnerschaft des Zwecks.",
+
+        "IMAGE:/images/children2.jpeg",
+
+        "Warum diese Partnerschaft wichtig ist",
+        "HolyDigits101 wurde mit einer klaren Überzeugung gegründet: Afrika ist nicht arm — Afrika ist schlecht optimiert. Der eigentliche Mangel ist nicht Talent. Es ist Zugang. Zugang zu relevanten Fähigkeiten. Zugang zu modernen Werkzeugen. Zugang zu Wegen, die Lernen in Lebensunterhalt verwandeln.",
+        "Während Miteinander in Bergedorf e.V. Zugehörigkeit in den Stadtteilen Neuallermöhe und Bergedorf stärkt, arbeitet HolyDigits101 auf der anderen Seite der Brücke — in Gemeinden, in denen Chancen noch knapp sind.",
+        "Wenn Ressourcen durch diese Partnerschaft fließen, werden sie auf echte Wirkung vor Ort gelenkt: Schulen ohne Computer, junge Menschen ohne digitale Fähigkeiten, Waisenhäuser und IDP-Camps, in denen die Zukunft fern erscheint.",
+
+        "IMAGE:/images/feedthehungry.jpg",
+
+        "Was HolyDigits101 vor Ort tut",
+        "HolyDigits101 konzentriert sich auf praktische, messbare Stärkung in unterversorgten Gemeinden in Nigeria und darüber hinaus. Unsere Arbeit wurzelt in Bildung, Fähigkeiten und Würde.",
+        "1. Digitale Fähigkeiten für die nächste Generation — Wir rüsten junge Menschen mit praktischen digitalen und zukunftsorientierten Fähigkeiten aus — von grundlegender Computerkompetenz bis hin zu Content-Erstellung, Automatisierung und neuen Technologien. Das sind keine abstrakten Kurse. Es sind Werkzeuge, die jungen Menschen helfen, zu konkurrieren, zu schaffen und zu verdienen.",
+        "2. Unterstützung lokaler Schulen — Viele öffentliche Schulen verfügen noch nicht über grundlegende digitale Infrastruktur. HolyDigits101 arbeitet daran, Computer, strukturierte digitale Lernprogramme und Lehrerunterstützung einzuführen, damit Schülerinnen und Schüler in gewöhnlichen Klassenzimmern dieselben Chancen haben wie ihre Altersgenossen anderswo.",
+        "3. Arbeit mit Waisenhäusern und gefährdeten Kindern — Wir arbeiten mit Waisenhäusern und Betreuungseinrichtungen zusammen, um Lerntechnologie und Aktivitäten zum Aufbau von Fähigkeiten einzuführen. Für Kinder, die bereits so viel verloren haben, wird digitale Bildung zu einer Tür zur Möglichkeit.",
+        "4. Präsenz in IDP-Camps und vertriebenen Gemeinden — In von Vertreibung betroffenen Gemeinden wird Bildung oft jahrelang unterbrochen. HolyDigits101 entwickelt niederschwellige Lerninterventionen, die auch in schwierigen Umgebungen funktionieren — und jungen Menschen ein Gefühl von Fortschritt und Hoffnung geben.",
+        "5. Jugend- und NYSC-Engagement — Wir haben Tausende junger Nigerianerinnen und Nigerianer ausgebildet, darunter eine große Zahl von NYSC-Corpsmitgliedern. Diese jungen Menschen werden Multiplikatoren — sie tragen Fähigkeiten, Selbstvertrauen und eine Kultur des Lernens zurück in ihre Gemeinden.",
+        "6. Von Zertifikaten zu Gestaltern — Unsere Philosophie ist einfach: Das Ziel ist nicht ein weiteres Zertifikat. Das Ziel ist Handlungsfähigkeit. Junge Menschen, die schaffen, Probleme lösen und aufbauen können.",
+
+        "IMAGE:/images/event2.jpg",
+
+        "Bisherige Arbeit: Wurzeln im Delta State und in ganz Nigeria",
+        "Die Reise von HolyDigits101 ist in realen Gemeinden verwurzelt. Im Delta State und in anderen Teilen Nigerias sind wir in Klassenzimmer gegangen, haben mit jungen Menschen in vorübergehenden Lernräumen gesessen und der stillen Entschlossenheit jener zugehört, die sich nicht zurücklassen wollen.",
+        "Wir haben erlebt, was passiert, wenn ein junger Mensch zum ersten Mal einen Computer in den Händen hält und erkennt, dass die Welt größer ist als die Grenzen, die ihm gesetzt wurden. Wir haben Lehrerinnen und Lehrer aufleuchten sehen, wenn sie praktische Werkzeuge erhalten, die sie wirklich nutzen können. Wir haben den Wandel gesehen, der eintritt, wenn Lernen nicht mehr theoretisch bleibt, sondern mit realer Möglichkeit verbunden wird.",
+        "Diese Arbeit geht weiter. Jede Partnerschaft, jede Ressource, jede Unterstützungshandlung erweitert den Kreis junger Menschen, die an der digitalen Zukunft teilhaben können, anstatt sie von außen zu betrachten.",
+
+        "IMAGE:/images/event12.jpg",
+
+        "Eine gemeinsame Vision mit Miteinander in Bergedorf e.V.",
+        "Was diese Partnerschaft stark macht, ist die Verbindung zweier Realitäten:",
+        "In Bergedorf werden junge Menschen mit afrikanischem Erbe unterstützt, Zugehörigkeit, Bildung und Selbstvertrauen in einer neuen Gesellschaft zu finden.",
+        "In afrikanischen Gemeinden werden junge Menschen unterstützt, die digitalen Fähigkeiten und Werkzeuge zu erwerben, die Türen in einer sich rasch verändernden Welt öffnen.",
+        "Die eine Seite der Brücke stärkt Wurzeln und Integration. Die andere Seite stärkt Flügel und Chance. Gemeinsam glauben wir, dass Würde in beide Richtungen reist.",
+
+        "IMAGE:/images/event11.jpg",
+
+        "Wie Unterstützung Wirkung entfaltet",
+        "Wenn Einzelpersonen, Organisationen und Partner über diese Zusammenarbeit beitragen, werden die Ressourcen auf konkrete Maßnahmen gelenkt:",
+        "• Computer und Lernwerkzeuge in Schulen und Lernzentren bringen",
+        "• Praktische Kompetenz-Workshops für junge Menschen durchführen",
+        "• Digitale Bildung in Waisenhäusern und Betreuungseinrichtungen unterstützen",
+        "• Strukturierte Lernmöglichkeiten in unterversorgten und vertriebenen Gemeinden schaffen",
+        "• Junge Multiplikatoren ausbilden, die die Arbeit lange nach einem einzelnen Projekt fortführen können",
+        "Dies ist keine Wohltätigkeit, die Abhängigkeit schafft. Es ist eine Investition in Handlungsfähigkeit.",
+        "Ausblick",
+        "Die Partnerschaft zwischen HolyDigits101 und Miteinander in Bergedorf e.V. ist ein Bekenntnis:",
+        "Dass ein junger Mensch in Neuallermöhe und ein junger Mensch in einer unterversorgten Gemeinde in Nigeria beide die Chance verdienen, mit den eigenen Händen eine Zukunft aufzubauen.",
+        "Dass Bildung eine der mächtigsten Kräfte für Würde bleibt.",
+        "Dass Technologie, wenn sie in die richtigen Hände gelegt wird, zu einem Werkzeug der Befreiung statt des Ausschlusses wird.",
+        "Dass Gemeinschaften auf verschiedenen Kontinenten einander stärken können.",
+        "Wir laden Sie ein, mit uns zu gehen. Besuchen Sie holydigits101.com, um mehr über die laufende Arbeit zu erfahren. Unterstützen Sie die Partnerschaft. Teilen Sie die Vision.",
+        "Denn jeder junge Mensch, der eine echte Fähigkeit erwirbt, wird zum lebendigen Beweis dafür, dass die Zukunft neu geschrieben werden kann.",
+      ],
+    },
       {
         slug: "filmabend-ausgebucht",
         date: "12. Februar 2026",
@@ -1109,6 +1177,74 @@ const en: typeof de = {
     detailsLabel: "View details",
     items: [
       {
+      slug: "building-bridges-holydigits101",
+      date: "15 August 2026",
+      tag: "Partnership",
+      author: "Henry Akanno",
+      readTime: "6 min",
+      title: "Building Bridges Across Continents: How HolyDigits101 and Miteinander in Bergedorf e.V. Are Empowering the Next Generation",
+      excerpt: "A strategic partnership that connects belonging in Bergedorf with digital opportunity across Africa — turning education into real capability.",
+      image: "/images/community3.jpg",
+      content: [
+        "In a quiet corner of Hamburg-Bergedorf, an association has spent more than a decade creating belonging. Miteinander in Bergedorf e.V. has opened doors for families, children, and young people from different backgrounds — especially those with African roots — through education, encounter, and practical support.",
+        "Now, a new chapter begins.",
+        "HolyDigits101 joins this work as a strategic partner. Together, we are connecting the lived experience of integration in Germany with the urgent need for digital opportunity across Africa.",
+        "This is not just a partnership of logos. It is a partnership of purpose.",
+
+        "IMAGE:/images/children2.jpeg",
+
+        "Why This Partnership Matters",
+        "HolyDigits101 was founded with a clear conviction: Africa is not poor — Africa is poorly optimized. The real shortage is not talent. It is access. Access to relevant skills. Access to modern tools. Access to pathways that turn learning into livelihood.",
+        "While Miteinander in Bergedorf e.V. strengthens belonging in the neighbourhoods of Neuallermöhe and Bergedorf, HolyDigits101 works on the other side of the bridge — in communities where opportunity is still scarce.",
+        "When resources flow through this partnership, they are directed toward real impact on the ground: schools without computers, young people without digital skills, orphanages and IDP camps where the future feels distant.",
+
+        "IMAGE:/images/feedthehungry.jpg",
+
+        "What HolyDigits101 Does on the Ground",
+        "HolyDigits101 focuses on practical, measurable empowerment in underserved communities across Nigeria and beyond. Our work is rooted in education, skills, and dignity.",
+        "1. Digital Skills for the Next Generation — We equip young people with practical digital and future-ready skills — from foundational computer literacy to content creation, automation, and emerging technologies. These are not abstract courses. They are tools that help young people compete, create, and earn.",
+        "2. Support for Local Schools — Many public schools still lack basic digital infrastructure. HolyDigits101 works to introduce computers, structured digital learning programs, and teacher support so that students in ordinary classrooms can access the same opportunities as their peers elsewhere.",
+        "3. Work with Orphanages and Vulnerable Children — We partner with orphanages and care homes to introduce learning technology and skill-building activities. For children who have already lost so much, digital education becomes a doorway to possibility.",
+        "4. Presence in IDP Camps and Displaced Communities — In communities affected by displacement, education is often interrupted for years. HolyDigits101 designs low-barrier learning interventions that can function even in difficult environments — giving young people a sense of progress and hope.",
+        "5. Youth and NYSC Engagement — We have trained thousands of young Nigerians, including large numbers of NYSC corps members. These young people become multipliers — carrying skills, confidence, and a culture of learning back into their communities.",
+        "6. From Certificates to Builders — Our philosophy is simple: the goal is not another certificate. The goal is capability. Young people who can create, solve problems, and build.",
+
+        "IMAGE:/images/event2.jpg",
+
+        "Previous Work: Roots in Delta State and Across Nigeria",
+        "HolyDigits101’s journey is grounded in real communities. In Delta State and other parts of Nigeria, we have walked into classrooms, sat with young people in temporary learning spaces, and listened to the quiet determination of those who refuse to be left behind.",
+        "We have seen what happens when a young person holds a computer for the first time and realises the world is larger than the limits they were given. We have seen teachers light up when they receive practical tools they can actually use. We have seen the shift that occurs when learning is no longer theoretical but connected to real possibility.",
+        "This work continues. Every partnership, every resource, every act of support expands the circle of young people who can participate in the digital future rather than watch it from the outside.",
+
+        "IMAGE:/images/event12.jpg",
+
+        "A Shared Vision with Miteinander in Bergedorf e.V.",
+        "What makes this partnership powerful is the connection between two realities:",
+        "In Bergedorf, young people with African heritage are supported to find belonging, education, and confidence in a new society.",
+        "In African communities, young people are supported to gain the digital skills and tools that open doors in a rapidly changing world.",
+        "One side of the bridge strengthens roots and integration. The other side strengthens wings and opportunity. Together, we believe that dignity travels both ways.",
+
+        "IMAGE:/images/event11.jpg",
+
+        "How Support Creates Impact",
+        "When individuals, organisations, and partners contribute through this collaboration, the resources are directed toward concrete action:",
+        "• Placing computers and learning tools in schools and learning centres",
+        "• Running practical skill workshops for young people",
+        "• Supporting digital literacy in orphanages and care settings",
+        "• Creating structured learning opportunities in underserved and displaced communities",
+        "• Training young facilitators who can continue the work long after a single project ends",
+        "This is not charity that creates dependency. It is investment in capability.",
+        "Looking Forward",
+        "The partnership between HolyDigits101 and Miteinander in Bergedorf e.V. is a statement of belief:",
+        "That a young person in Neuallermöhe and a young person in an underserved community in Nigeria both deserve the chance to build a future with their own hands.",
+        "That education remains one of the most powerful forces for dignity.",
+        "That technology, when placed in the right hands, becomes a tool of liberation rather than exclusion.",
+        "That communities on different continents can strengthen each other.",
+        "We invite you to walk with us. Visit holydigits101.com to learn more about the ongoing work. Support the partnership. Share the vision.",
+        "Because every young person who gains a real skill becomes living proof that the future can be rewritten.",
+      ],
+    },
+      {
         slug: "filmabend-ausgebucht",
         date: "12 February 2026",
         tag: "Report",
@@ -1318,11 +1454,11 @@ const en: typeof de = {
     strategicKicker: "Strategic partner",
     hdTitle: "HolyDigits101",
     hdText:
-      "HolyDigits101 is our strategic partner for digitalisation, digital education and communication. Together we develop digital learning formats for young people, modernise the association's processes and make the work of Miteinander in Bergedorf e.V. visible online.",
+      "Building belonging. Building capability. Building the future — together.",
     hdPoints: [
-      "Digital education and media workshops for young people",
-      "Website, design and digital communication of the association",
-      "Advice on data protection, tools and digital processes",
+      "Empowering underserved communities across Africa with practical digital skills and tools",
+      "Supporting schools, orphanages and IDP communities with technology and structured learning",
+      "* Training young people and NYSC corps members to become builders of opportunity in their own communities",
     ],
     hdCta: "Visit holydigits101.com",
     othersTitle: "Further partners & networks",
