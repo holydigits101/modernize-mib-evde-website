@@ -1,9 +1,17 @@
+import { useState } from "react";
 import { Button, Icon, Kicker, PageHero, Reveal, Section, useLang } from "../lib/site";
 import { org } from "../content";
 
 export default function Involved() {
   const { t } = useLang();
   const g = t.involved;
+  const [copied, setCopied] = useState(false);
+
+  const handleCopy = () => {
+    navigator.clipboard.writeText(org.walletAddress || "0xYourWalletAddressHere");
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
 
   return (
     <>
@@ -63,7 +71,7 @@ export default function Involved() {
         </div>
       </Section>
 
-      {/* donation */}
+      {/* Donation Section */}
       <Section>
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-16">
           <Reveal>
@@ -71,6 +79,8 @@ export default function Involved() {
               <Kicker light>{g.donateTitle}</Kicker>
               <h2 className="mt-6 text-3xl font-bold tracking-tight">{g.donateTitle}</h2>
               <p className="mt-4 leading-relaxed text-ink-200">{g.donateText}</p>
+
+              {/* Account details */}
               <dl className="mt-9 space-y-4 border-t border-white/10 pt-8 text-sm">
                 {[
                   [g.accountHolder, org.name],
@@ -84,11 +94,49 @@ export default function Involved() {
                   </div>
                 ))}
               </dl>
+
+              {/* QR Code section */}
+              <div className="mt-8 flex flex-col items-center border-t border-white/10 pt-8">
+                <p className="mb-1 text-base font-bold text-white">
+                  {g.qrLabel || "QR-Code scannen"}
+                </p>
+                <p className="mb-5 text-sm text-ink-400">
+                  {g.qrSubLabel || "Mit Banking-App oder Wallet scannen"}
+                </p>
+
+                <div className="rounded-2xl bg-white p-3 shadow-lg">
+                  <img
+                    src="/images/qr-code.jpg"
+                    alt="Spenden QR-Code"
+                    className="h-44 w-44 object-contain"
+                  />
+                </div>
+              </div>
+
+              {/* Wallet Address */}
+              <div className="mt-6 flex flex-col items-center">
+                <p className="mb-2 text-xs uppercase tracking-wider text-ink-400">
+                  {g.walletLabel || "Wallet Address"}
+                </p>
+                <button
+                  onClick={handleCopy}
+                  className="group flex max-w-full items-center gap-2 rounded-xl border border-white/15 bg-white/5 px-4 py-2.5 text-left transition hover:bg-white/10"
+                >
+                  <code className="truncate font-mono text-[13px] text-ink-100 group-hover:text-white">
+                    {org.walletAddress || "0xYourWalletAddressHere"}
+                  </code>
+                  <span className="shrink-0 text-xs text-ink-400 group-hover:text-amber-warm">
+                    Copy
+                  </span>
+                </button>
+              </div>
+
               <div className="mt-9">
                 <Button to="/kontakt" variant="light">
                   {g.donateCta}
                 </Button>
               </div>
+
               <p className="mt-6 text-xs leading-relaxed text-ink-400">
                 {org.register} · {org.ustId} · {org.email}
               </p>
@@ -141,6 +189,13 @@ export default function Involved() {
           </div>
         </div>
       </Section>
+
+      {/* Toast Notification */}
+      {copied && (
+        <div className="fixed bottom-8 left-1/2 z-50 -translate-x-1/2 rounded-full bg-ink-900 px-5 py-2.5 text-sm font-medium text-white shadow-xl">
+          ✓ Copied!
+        </div>
+      )}
     </>
   );
 }
